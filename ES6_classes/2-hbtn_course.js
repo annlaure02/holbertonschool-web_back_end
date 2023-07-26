@@ -3,10 +3,10 @@ export default class HolbertonCourse {
     if (typeof name !== 'string') {
       throw new TypeError('Name must be a string');
     }
-    if (typeof newLength !== 'number') {
+    if (typeof length !== 'number') {
       throw new TypeError('Length must be a number');
     }
-    if (Array.isArray(newStudents !== true)) {
+    if (Array.isArray(students !== true)) {
       throw new TypeError('Students must be an array of strings');
     }
 
